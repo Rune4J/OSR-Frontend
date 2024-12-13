@@ -436,6 +436,11 @@ public final class ItemDefinition {
         }
 
         switch (itemId) {
+            case 6953:
+                copyDef(itemDef, forID(6953));
+                itemDef.name="Bottled Wind";
+                itemDef.description="A strong gale to bring your ship home";
+                break;
             case 8115:
                 createAltarTeleportTab(itemDef, Rune.AIR);
                 break;
